@@ -8,7 +8,17 @@ body{
     background-size: cover;
     color: cornsilk;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    
 }
-.fluid h1{
-    margin-left: 50px;
+.overlay{
+
+}
+.container-fluid h1{
+    padding-top: 50px;
+}
+img{
+    padding-top: 10%;
 }
