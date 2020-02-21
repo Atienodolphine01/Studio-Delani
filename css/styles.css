@@ -7,8 +7,14 @@ body{
     background-position: center;
     background-size: cover;
     color: cornsilk;
-
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    
 }
-.fluid h1{
-    margin-left: 50px;
+.container-fluid h1{
+    padding-top: 20px;
+}
+img{
+    margin-top: 20px;
 }
