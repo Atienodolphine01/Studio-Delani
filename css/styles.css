@@ -10,17 +10,6 @@ body{
     height: 650px;
     color: cornsilk; 
     text-align: center;
-<<<<<<< HEAD
-    padding-top: 10%;
-    padding-bottom: 20%;
-    
-}
-.container-fluid h1{
-    padding-top: 20px;
-}
-img{
-    margin-top: 20px;
-=======
     margin-bottom: 30px;
     
 }
@@ -60,5 +49,4 @@ img{
 }
 .services p{
     padding-bottom: 70px;
->>>>>>> gh-pages
 }
