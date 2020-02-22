@@ -1,10 +1,5 @@
-/*$(document).ready(function(){
-    $("#service1").click(function(){
-        $(".de").toggle();
-    })
-})*/
-let picture = $("picture");
-let de = $("de");
+/*let picture = $(".picture");
+let de = $(".de");*/
 
 $(document).ready(function(){
     $(".picture").on(click,function(){
