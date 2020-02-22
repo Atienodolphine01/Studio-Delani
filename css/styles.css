@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.container-fluid{
+.home{
     background-image: url(../images/backgrounds/h_img.jpg);
     background-position: center;
     background-size: cover;
