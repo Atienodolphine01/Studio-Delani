@@ -1,6 +1,5 @@
-/*let picture = $(".picture");
-let de = $(".de");*/
-
+let service1=("service1")
+let de = ("de")
 $(document).ready(function(){
     $(".picture").on(click,function(){
       $(this).hide();
