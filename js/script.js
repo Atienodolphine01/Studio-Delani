@@ -1,0 +1,13 @@
+/*$(document).ready(function(){
+    $("#service1").click(function(){
+        $(".de").toggle();
+    })
+})*/
+$(document).ready(function(){
+    $("#service1").click(function(){
+      $(".de").hide();
+    });
+    $("#service1").click(function(){
+      $(".de").show();
+    });
+  });

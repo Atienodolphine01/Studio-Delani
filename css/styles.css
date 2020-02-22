@@ -50,3 +50,6 @@ body{
 .services p{
     padding-bottom: 70px;
 }
+.contacts{
+    background-image: url("../images/backgrounds/c_image.jpg");
+}
