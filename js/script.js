@@ -110,3 +110,22 @@ $(document).ready(function(){
       $("#overlay8").hide();
     });
 });
+
+$(document).ready(function(){
+  $("form#feedback").on("submit",function(event){
+     event.preventDefault();
+     
+    var name = $("input#name").val();
+    var mail = $("input#email").val();  
+    var message = $("textarea#message").val();
+
+    if ($("input#name").val() && $("input#email").val()){
+      alert ( "We have received your message."+ name + "Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and email!");
+    }
+    
+  });
+
+});
