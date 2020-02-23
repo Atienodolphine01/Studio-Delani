@@ -64,8 +64,32 @@ body{
 .de{
     display: none;
 }
+.devep{
+    display: none;
+}
+.proment{
+    display: none;
+}
 .col-md-12{
     margin-top: 50px;
+}
+#overlay ,#overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
+    display: none;
+    background-color:rgba(126, 121, 121, 0.456);
+    position:absolute;
+    width: 88%;
+    height: 185px;  
+    top: 21px;
+    left: 15px;
+    bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20%;
+}
+.port:hover{
+    background-color: brown;
+
 }
 footer{
     margin-top: 50px;
