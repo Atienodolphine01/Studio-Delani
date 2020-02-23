@@ -64,8 +64,22 @@ body{
 .de{
     display: none;
 }
+.devep{
+    display: none;
+}
+.proment{
+    display: none;
+}
 .col-md-12{
     margin-top: 50px;
+}
+.overlay ,.overlay2{
+    
+    
+}
+.port:hover{
+    background-color: brown;
+
 }
 footer{
     margin-top: 50px;
