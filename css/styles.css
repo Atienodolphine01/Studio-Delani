@@ -74,6 +74,7 @@ body{
     margin-top: 50px;
 }
 #overlay ,#overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
+    display: none;
     background-color:rgba(126, 121, 121, 0.456);
     position:absolute;
     width: 88%;
