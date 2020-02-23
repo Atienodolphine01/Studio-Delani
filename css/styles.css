@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Fjalla One', ;
-    color: #000;
+    width: 100%;
+    height: 1500px;
 }
 .container-fluid{
     margin: 0;
@@ -12,8 +12,10 @@ body{
     background-image: url(../images/backgrounds/h_img.jpg);
     background-position: fixed;
     background-size: cover;
+    width: 100%;
     height: 650px;
-    color: cornsilk; 
+    color: cornsilk;
+    font-family: 'Fjalla One', ; 
     text-align: center;
     margin-bottom: 30px;
 }
@@ -29,6 +31,7 @@ body{
 .services{
     background-image: url("../images/backgrounds/s_image.jpg");
     height: 350px;
+    width: 100%;
     margin-top: 50px;
     color: #fff;
 }
@@ -38,16 +41,22 @@ body{
 .services p{
     padding-bottom: 70px;
 }
-.contacts{
-    background-image: url("../images/backgrounds/c_image.jpg");
-    margin-top: 50px;
-    background-size: cover;
+.what-we-do{
     width: 100%;
-    height: 450px;
+}
+.what-we-do h1{
+    margin-top: 50px;
+}
+.what-we-do h1 p{
+    text-align: center;
+}
+.service1, .dev, .ment{
+    padding-left: 200px;
+    margin-top: 0px;
 }
 .de{
     display: none;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 .devep{
     display: none;
@@ -55,9 +64,13 @@ body{
 .proment{
     display: none;
 }
+.portfolio{
+    margin-top: 50px;
+    width: 100%;
+}
 #overlay ,#overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
     display: none;
-    background-color:rgba(126, 121, 121, 0.456);
+    background-color:rgba(241, 234, 234, 0.456);
     position:absolute;
     width: 88%;
     height: 184px;  
@@ -70,25 +83,12 @@ body{
     padding-top: 30%;
 }
 #table{
-    margin-top:30px;
+    margin-top:20px;
     width: 100%;
 }
 #table2{
     margin-top: 40px;
     width: 100%;
-}
-.what-we-do{
-    width: 100%;
-}
-.what-we-do h1{
-    margin-top: 50px;
-}
-.what-we-do h1 p{
-    text-align: center;
-}
-figure img{
-    margin-left: 200px;
-    margin-top: 0px;
 }
 figcaption{
     padding-top: 10px;
@@ -96,16 +96,16 @@ figcaption{
     font-weight: bold;
     font-size: 20px;
 }
-.portfolio{
-    margin-top: 40px;
-}
-.col-md-12{
-    margin-top: 20px;
-    margin-left: 30px;
+.contacts{
+    background-image: url("../images/backgrounds/c_image.jpg");
+    margin-top: 50px;
+    background-position: cover;
+    width: 100%;
+    height: 450px;
 }
 #name{
-    margin-left: px;
     margin-right: 20px;
+    padding-left: 20px;
     height: 40px;
 }
 #email{
@@ -113,8 +113,8 @@ figcaption{
 }
 #message{
     margin-top: 20px;
-    margin-left: 100px;
-    height: 210px
+    margin-left: 80px;
+    height: 200px
 
 }
 input[type=name]:hover{
@@ -141,6 +141,11 @@ input[type=name],input[type=email],#message{
     font-size: 20px;
     font-family: 'Copse', serif;
   }
+.col-md-12{
+    margin-top: 50px;
+    width: 100%;
+}
 footer{
+    width: 100%;
     margin-top: 50px;
 }
