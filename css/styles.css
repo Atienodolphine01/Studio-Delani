@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Acme|Comfortaa&display=swap');
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Comfortaa',sans-serif ;
-    font-size: 20px;
+    width: 100%;
+    height: 1500px;
 }
 .container-fluid{
     margin: 0;
@@ -15,22 +14,11 @@ body{
     background-size: cover;
     width: 100%;
     height: 650px;
-    font-size: 20px;
-    font-weight: bold;
-    color: cornsilk; 
+    color: cornsilk;
+    font-family: 'Fjalla One', ; 
     text-align: center;
     margin-bottom: 30px;
-    
 }
-/*.overlay{
-    background: rgba(43, 41, 41, 0.842);
-    width: 100%;
-    height: 650px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}*/
 .container-fluid h1{
     padding-top: 20px;
 }
@@ -40,52 +28,59 @@ body{
 .mx-auto d-block click{
     margin-bottom: 70px;
 }
-#about, .text-center  h1 p{
-    font-size: 20px;
-}
 .services{
     background-image: url("../images/backgrounds/s_image.jpg");
     height: 350px;
+    width: 100%;
     margin-top: 50px;
     color: #fff;
-    font-weight: bold;
 }
-/*.overlay-2{
-    background-color: rgba(43, 41, 41, 0.842);
-    height: 350px;
-    position: relative;
-    z-index: 1;
-}*/
 .services h1{
     padding-top: 70px;
-    
 }
 .services p{
     padding-bottom: 70px;
 }
 .what-we-do{
-    text-indent: 30px;
-    font-size: 20px; 
+    width: 100%;
 }
- .text-center{
-    margin-top: 20px;
+.what-we-do h1{
+    margin-top: 50px;
 }
-.what-we-do, .text-center, .col-md-12 ,.row, .col-md-4 .service1{
-    padding-top: 10px;
-}
-.what-we-do, .text-center, .col-md-12 ,.row, .col-md-4 .service1, figcaption{
+.what-we-do h1 p{
     text-align: center;
-    padding-top: 5px;
-   
+}
+.service1, .dev, .ment{
+    padding-left: 200px;
+    margin-top: 0px;
 }
 .de{
     display: none;
+    margin-left: 30px;
 }
 .devep{
     display: none;
 }
 .proment{
     display: none;
+}
+.portfolio{
+    margin-top: 50px;
+    width: 100%;
+}
+#overlay ,#overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
+    display: none;
+    background-color:rgba(241, 234, 234, 0.456);
+    position:absolute;
+    width: 88%;
+    height: 184px;  
+    top: 0px;
+    left: 16px;
+    bottom: 9px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30%;
 }
 #table{
     margin-top:20px;
@@ -95,30 +90,22 @@ body{
     margin-top: 40px;
     width: 100%;
 }
-#overlay ,#overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
-    display: none;
-    background-color:rgba(126, 121, 121, 0.456);
-    position:absolute;
-    width: 88%;
-    height: 180px;  
-    top: 0px;
-    left: 15px;
-    bottom: 30px;
-    font-weight: bold;
+figcaption{
+    padding-top: 10px;
     text-align: center;
-    font-size: 30px;
-    padding-top: 20%;
+    font-weight: bold;
+    font-size: 20px;
 }
 .contacts{
     background-image: url("../images/backgrounds/c_image.jpg");
     margin-top: 50px;
-    background-size: cover;
+    background-position: cover;
     width: 100%;
     height: 450px;
 }
 #name{
     margin-right: 20px;
-    margin-left: 60px;
+    padding-left: 20px;
     height: 40px;
 }
 #email{
@@ -126,28 +113,24 @@ body{
 }
 #message{
     margin-top: 20px;
-    margin-left: 60px;
-    height: 180px
+    margin-left: 80px;
+    height: 200px
 
 }
-input[type=name]{
-    background-color:;
+input[type=name]:hover{
+    background-color: white;
     color: black;
 }
-input[type=email]{
+input[type=email]:hover{
     background-color: white;
 }
-.contacts, .text-center{
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-#message{
+#message:hover{
     background-color: white;
     color: black;
 }
 #button{
-    margin-left: 20px;
-    margin-top: 5px;
+    margin-left: 350px;
+    margin-top: 20px;
     background-color: white;
     background: transparent;
     color: white;
@@ -160,7 +143,9 @@ input[type=name],input[type=email],#message{
   }
 .col-md-12{
     margin-top: 50px;
+    width: 100%;
 }
 footer{
-    margin-top: 70px;
+    width: 100%;
+    margin-top: 50px;
 }
