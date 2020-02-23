@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Fjalla One', ;
+    color: #000;
 }
 .container-fluid{
     margin: 0;
@@ -10,21 +12,10 @@ body{
     background-image: url(../images/backgrounds/h_img.jpg);
     background-position: fixed;
     background-size: cover;
-    width: 100%;
     height: 650px;
     color: cornsilk; 
     text-align: center;
     margin-bottom: 30px;
-    
-}
-.overlay{
-    background: rgba(43, 41, 41, 0.842);
-    width: 100%;
-    height: 650px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
 }
 .container-fluid h1{
     padding-top: 20px;
@@ -41,15 +32,8 @@ body{
     margin-top: 50px;
     color: #fff;
 }
-.overlay-2{
-    background-color: rgba(43, 41, 41, 0.842);
-    height: 350px;
-    position: relative;
-    z-index: 1;
-}
 .services h1{
     padding-top: 70px;
-    
 }
 .services p{
     padding-bottom: 70px;
@@ -63,6 +47,7 @@ body{
 }
 .de{
     display: none;
+    margin-right: 30px;
 }
 .devep{
     display: none;
@@ -70,27 +55,92 @@ body{
 .proment{
     display: none;
 }
-.col-md-12{
-    margin-top: 50px;
-}
 #overlay ,#overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
     display: none;
     background-color:rgba(126, 121, 121, 0.456);
     position:absolute;
     width: 88%;
-    height: 185px;  
-    top: 21px;
-    left: 15px;
-    bottom: 30px;
+    height: 184px;  
+    top: 0px;
+    left: 16px;
+    bottom: 9px;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-    padding-top: 20%;
+    padding-top: 30%;
 }
-.port:hover{
-    background-color: brown;
+#table{
+    margin-top:30px;
+    width: 100%;
+}
+#table2{
+    margin-top: 40px;
+    width: 100%;
+}
+.what-we-do{
+    width: 100%;
+}
+.what-we-do h1{
+    margin-top: 50px;
+}
+.what-we-do h1 p{
+    text-align: center;
+}
+figure img{
+    margin-left: 200px;
+    margin-top: 0px;
+}
+figcaption{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.portfolio{
+    margin-top: 40px;
+}
+.col-md-12{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#name{
+    margin-left: px;
+    margin-right: 20px;
+    height: 40px;
+}
+#email{
+    height: 40px; 
+}
+#message{
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 210px
 
 }
+input[type=name]:hover{
+    background-color: white;
+    color: black;
+}
+input[type=email]:hover{
+    background-color: white;
+}
+#message:hover{
+    background-color: white;
+    color: black;
+}
+#button{
+    margin-left: 350px;
+    margin-top: 20px;
+    background-color: white;
+    background: transparent;
+    color: white;
+}
+input[type=name],input[type=email],#message{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
 footer{
     margin-top: 50px;
 }
