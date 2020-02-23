@@ -1,6 +1,6 @@
 # Delani Studio
 
-[Check it out](https://Atienodolphine01.github.io/Delani-Studio/)
+[Check it out](https://atienodolphine01.github.io/Studio-Delani/)
 ## Description.
 Studio Delani is a site built to practice concepts learnt in JQuery, bootstrap and javascript.
 
