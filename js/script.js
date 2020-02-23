@@ -1,4 +1,4 @@
-let service1=$("service1");
+let image=$("service1");
 let de = $("de");
 let dev = $("dev");
 let devep = $("devep");
