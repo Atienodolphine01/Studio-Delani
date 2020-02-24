@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Comfortaa&display=swap');
+*{
+    overflow-x: hidden;
+}*
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa',sans-serif ;
+    font-size: 20px;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-image: url(../images/backgrounds/h_img.jpg);
+    background-position: fixed;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: cornsilk; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container-fluid h1{
+    padding-top: 20px;
+}
+
+.container-fluid img{
+    margin-top: 10%;
+}
+
+.mx-auto d-block click{
+    margin-bottom: 70px;
+}
+
+.about .text-center h1{
+    font-size: 20px;
+}
+
+.services{
+    background-image: url("../images/backgrounds/s_image.jpg");
+    padding-top: 30px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.services h1{
+    padding-top: 70px;
+    
+}
+.services p{
+    padding-bottom: 70px;
+}
+.what-we-do{
+    text-indent: 30px;
+    font-size: 20px; 
+}
+.what-we-do, .text-center, .col-md-12 ,.row, .col-md-4 .service1{
+    padding-top: 10px;
+}
+.what-we-do, .text-center, .col-md-12 ,.row, .col-md-4 .service1, figcaption{
+    text-align: center;
+    padding-top: 5px;
+}
+.de{
+    display: none;
+}
+.devep{
+    display: none;
+}
+.proment{
+    display: none;
+}
+#table{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#table2{
+    margin-top: 40px;
+}
+#overlay ,#overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
+    display: none;
+    background-color:rgba(126, 121, 121, 0.456);
+    position:absolute;
+    width: 100%;
+    height: 280px;  
+    top: 0px;
+    left: 15px;
+    bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.contacts{
+    background-image: url("../images/backgrounds/c_image.jpg");
+    margin-top: 50px;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    color: white;
+}
+.top{
+    padding-top: 20px;
+}
+#name{
+    margin-left: 2px;
+    margin-right: 20px;
+    height: 40px;
+}
+#email{
+    height: 40px; 
+}
+#message{
+    margin-top: 20px;
+    width: 95%;
+    margin-left: 80px;
+    height: 180px
+
+}
+#button{
+    background: transparent;
+    color: white;
+}
+input[type=name]:hover{
+    background-color: white;
+    color: black;
+}
+input[type=email]:hover{
+    background-color: white;
+}
+#message:hover{
+    background-color: white;
+    color: black;
+}
+
+input[type=name],input[type=email],#message{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+.col-md-12{
+    margin-top: 30px;
+}
+footer{
+    margin-top: 70px;
+}
