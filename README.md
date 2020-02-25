@@ -39,4 +39,4 @@ To get a local copy of the site:
 >MIT LICENSE &copy; 2019 AtienoD
 
 ## Collaborate
-To contribute to Studio-Delani, reach me on [Email](dolphine.atieno@moringa.com).
+To contribute to Studio-Delani, reach me on [Email](awuordolphine65@.com).
